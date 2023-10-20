@@ -1,7 +1,7 @@
 
 import { registerSuperProperty, registerSuperProperties, getSuperProperty, getSuperProperties, unRegisterSuperProperty, clearSuperProperties} from './superProperty'
 import pageView from './pageView'
-import pageClose from './pageClose'
+import pageClose from './pageclose'
 import startUp from './startUp'
 import appStart from './appStart'
 import end from './end'
@@ -9,6 +9,7 @@ import alias from './alias'
 import userClick, { userClickTab } from './userClick'
 import { profileSetOnce, profileSet, profileAppend, profileIncrement, profileDelete, profileUnset } from './profile'
 import reset from './reset'
+import timeEvent from './timeEvent'
 import { getPresetProperties } from './presetProperties'
 import track from './track'
 import { identify, getDistinctId} from './identify'
@@ -28,6 +29,7 @@ export {
   pageClose,
   end,
   track,
+  timeEvent,
   alias,
   share,
   userClick, userClickTab,

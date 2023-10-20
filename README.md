@@ -1,5 +1,4 @@
-# asd-wechat-sdk [![NPM version][npm-image]][npm-url] [![License](https://img.shields.io/github/license/analysys/ans-wechat-sdk.svg)](https://github.com/analysys/ans-wechat-sdk/blob/master/LICENSE) [![GitHub release](https://img.shields.io/github/release/analysys/ans-wechat-sdk.svg)](https://github.com/analysys/ans-wechat-sdk/releases)
-
+# asd-wechat-sdk 
 ## 安装
 
 ```sh
@@ -41,19 +40,4 @@ autoCompleteURL | 否 | boolean | true | 设置是否采集完整URL，true - �
 autoPageViewDuration | 否 | boolean | false | 是否采集页面离开事件
 
 
-
-
-
-
----
-
-[![NPM downloads][npm-downloads]][npm-url]
-
-
-
-
-[homepage]: https://github.com/analysys/ans-wechat-sdk
-[npm-url]: https://www.npmjs.com/package/asd-wechat-sdk
-[npm-image]: https://img.shields.io/npm/v/asd-wechat-sdk.svg?style=flat
-[npm-downloads]: https://img.shields.io/npm/dm/asd-wechat-sdk.svg?style=flat
 
